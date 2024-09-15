@@ -1,0 +1,167 @@
+@media  screen and (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .top-navbar {
+        padding: 0 20px; /* Reduce the padding */
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Let the height adjust */
+        gap: 5px; /* Smaller gap */
+    }
+
+    .left, .right {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .vr-line {
+        
+        height: 15px;
+        width: 2px;
+    }
+
+    .left i, .left img, .right i, .right img {
+        padding: 0 5px;
+    }
+
+    .right p, .left p {
+        font-size: 12px;
+    }
+    .bottom-navbar{
+        padding: 0px 80px;
+    }
+    .menu{
+        display: block;
+    }
+    .hero-section{
+        height: 37vh;
+    }
+    .hero-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-container .hero-left{
+        margin-top: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-p1{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .hero-p2{
+        text-align: center;
+    }
+    .hero-right{
+        height:auto ;
+        
+    }
+    .hero-container .hero-right img{
+        margin-top: 10px;
+        height: 330px;
+    }
+    .hero-dots{
+        bottom: -332px;
+        background-color:#023020;
+        border-radius: 15px;
+        
+    }
+
+    .partner-section{
+        position: relative;
+        bottom: -345px;
+        padding: 0 50px;
+        gap: 50px;
+        height: auto;
+    }
+    .partner-left 
+    .partner-left-p2{
+        font-size: 12px;
+    }
+    .partner-right img{
+        margin-right: 28px;
+    }
+    .partner-right{
+        overflow-x: auto;
+    max-width: 600px; 
+    height: 65px;
+    }
+
+
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .top-navbar {
+        padding: 0 10px; /* Reduce the padding */
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Let the height adjust */
+        gap: 5px; /* Smaller gap */
+    }
+
+    .left, .right {
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .vr-line {
+        
+        height: 15px;
+        width: 2px;
+    }
+
+    .left i, .left img, .right i, .right img {
+        padding: 0 5px;
+    }
+    .right p{
+        margin-right: 0px;
+    }
+    .right i,.right img {
+        margin:0 5px
+    }
+
+    .right p, .left p {
+        font-size: 12px; 
+    }
+    .bottom-right-navbar,.bottom-mid-navbar{
+        display: none;
+    }
+    .bottom-navbar{
+        padding: 0px 40px;
+    }
+
+    .menu{
+        display: block;
+    }
+    .partner-section{
+        position: relative;
+        bottom: -345px;
+        padding: 0 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .partner-left 
+    .partner-left-p2{
+        font-size: 12px;
+    }
+    .partner-right img{
+        margin-right: 28px;
+    }
+    .partner-right{
+        overflow-x: auto;
+    max-width: 200px; 
+    height: 65px;
+    }
+}
+
+
+
